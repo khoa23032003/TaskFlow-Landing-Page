@@ -1,7 +1,7 @@
 import React from "react";
 
 const TeamPageInsideAboutPage = () => {
-  return <div>AboutPage</div>;
+  return <div>TeamPageInsideAboutPage</div>;
 };
 
 export default TeamPageInsideAboutPage;

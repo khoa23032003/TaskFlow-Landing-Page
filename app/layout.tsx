@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
+import WrapperNav from "@/components/Home/Navbar/WrapperNav";
 
 const font = Rubik({
   weight: ["300", "400", "500", "700", "800", "900"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -18,9 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${font.className} antialiased`}>
+        <WrapperNav />
         {children}
       </body>
     </html>
