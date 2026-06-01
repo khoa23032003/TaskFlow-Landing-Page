@@ -1,8 +1,7 @@
 import React from "react";
 
-const DynamicRouting = async ({ params }) => {
-  const name = (await params).name;
-  return <div>TeamPageInsideAboutPage {name}</div>;
+const DynamicRouting = ({ params }: { params: { name: string } }) => {
+  return <div>TeamPageInsideAboutPage {params.name}</div>;
 };
 
 export default DynamicRouting;
