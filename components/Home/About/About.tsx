@@ -6,7 +6,7 @@ import { MdOutline10K, MdOutlineMessage } from "react-icons/md";
 const About = () => {
   return (
     <div className="py-24 bg-[#6a26da] md:px-20 px-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         {/* Image  */}
         <div className="">
           <Image

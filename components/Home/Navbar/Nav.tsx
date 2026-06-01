@@ -50,7 +50,7 @@ const Nav = ({ openNav }: Props) => {
           })}
         </div>
         {/* BUTTON  */}
-        <button className="px-6 py-3 rounded-full font-semibold text-sm cursor-pointer hover:bg-red-800 transition-all duration-200 bg-red-600 text-white">
+        <button className="px-6 py-3 rounded-full font-semibold text-sm cursor-pointer hover:bg-red-800 transition-all duration-200 bg-red-600 text-white hidden md:flex">
           Get Started For Free
         </button>
         {/* Burger menu  */}
