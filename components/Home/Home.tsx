@@ -1,7 +1,12 @@
+import Hero from "@/components/Home/Hero/Hero";
 import React from "react";
 
 const Home = () => {
-  return <div className="overflow-hidden h-[2000px]"></div>;
+  return (
+    <div className="overflow-hidden">
+      <Hero />
+    </div>
+  );
 };
 
 export default Home;
