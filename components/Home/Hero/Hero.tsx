@@ -6,19 +6,34 @@ const Hero = () => {
     <div className="relative w-full h-[145vh] md:h-[120vh] lg:h-[140vh] items-center flex justify-center flex-col">
       <div className="relative">
         {/* Cricle  */}
-        <div className="w-36 h-36 rounded-full -top-10 -left-16 bg-yellow-300 absolute -z-10 "></div>
+        <div
+          data-aos="zoom-in"
+          className="w-36 h-36 rounded-full -top-10 -left-16 bg-yellow-300 absolute -z-10 "
+        ></div>
         {/* Heading text  */}
-        <div className="text-3xl md:text-4xl sm:text-5xl lg:text-6xl font-bold text-center text-gray-800">
+        <h1
+          data-aos-delay="100"
+          data-aos="fade-up"
+          className="text-3xl md:text-4xl sm:text-5xl lg:text-6xl font-bold text-center text-gray-800"
+        >
           The intelligent way to <br /> manage projects
-        </div>
+        </h1>
       </div>
       {/* sub heading  */}
-      <p className="mt-6 text-base sm:text-lg lg:text-xl leading-8 text-center text-gray-500">
+      <p
+        data-aos-delay="200"
+        data-aos="fade-up"
+        className="mt-6 text-base sm:text-lg lg:text-xl leading-8 text-center text-gray-500"
+      >
         Create custom landing pages with Fastland that <br />
         converts more visitors than any website.
       </p>
       {/* Email box  */}
-      <div className="h-20 rounded-full mt-8 md:mx-4 w-[95%] md:w-1/2 lg:w-1/3 border-2 border-gray-300 flex items-center justify-between px-2">
+      <div
+        data-aos-delay="300"
+        data-aos="fade-up"
+        className="h-20 rounded-full mt-8 md:mx-4 w-[95%] md:w-1/2 lg:w-1/3 border-2 border-gray-300 flex items-center justify-between px-2"
+      >
         {/* input  */}
         <input
           type="text"
@@ -32,7 +47,7 @@ const Hero = () => {
       </div>
 
       {/* Image  */}
-      <div className="mt-10">
+      <div className="mt-10" data-aos-delay="300" data-aos="zoom-in">
         <Image src={"/images/hero.png"} alt="img" width={500} height={500} />
       </div>
     </div>
